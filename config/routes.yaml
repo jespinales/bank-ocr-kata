@@ -1,3 +1,8 @@
 #index:
 #    path: /
 #    controller: App\Controller\DefaultController::index
+
+user-case-1:
+  path: /user-case-1
+  controller: Project\Infrastructure\Delivery\Api\Symfony\Controller\AnalyzeNumbersController
+  methods: GET
